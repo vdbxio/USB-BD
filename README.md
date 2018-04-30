@@ -6,7 +6,7 @@ The USB-BD is a small PCB and some associated parts intended to make it easier t
 
 We provide the source here for your perusal. Feel free to ask us any questions in the issues tab above and check out the wiki for more info as we continue to work on this project. We'd love to hear your feedback on how we can make it better.
 
-
+We currently sell them in 5-packs on Amazon. The Micro-USB port is soldered by us in California from imported components using a lead-free process. Included in the pack is 5x of 5.8mm Micro Latching Switch, 5x JST 2.0 Header, 5x JST 2.0 Lead, and 10x 1x2 pin headers for you to solder yourself.
 
 ## Background
 
