@@ -25,4 +25,5 @@ The USB-BD is currently being developed in EasyEDA. The link below will take you
 ## Version history
 
 v1.0a - Changed footprint to LCSC USB port and made slight modifications to the silk layer.
+
 v1.0 - Initial release - First batch with short horn USB port from AliExpress
