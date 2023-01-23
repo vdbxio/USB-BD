@@ -1,3 +1,6 @@
+[![piss](https://img.shields.io/badge/US000128-OSHWA-blue?style=for-the-badge)](https://certification.oshwa.org/us000128.html)
+
+
 # USB-BD
 A handy Micro-USB power and data breakout for breadboards and project boxes.
 
@@ -24,6 +27,20 @@ The USB-BD is currently being developed in EasyEDA. The link below will take you
 
 ## Version history
 
-v1.0a - Changed footprint to LCSC USB port and made slight modifications to the silk layer.
+2023.2 (v1.4) - Working on design
+
+v2.0 Prototype - Jan 2020 - Major redesign - Two position Micro-USB footprint, Nix JST for aligned 2.54mm pins for data, Simpler switch
+
+v1.0a/v1.1 - Changed footprint to LCSC USB port and made slight modifications to the silk layer.
 
 v1.0 - Initial release - First batch with short horn USB port from AliExpress
+
+
+## Changelog
+
+Jan 2023 
+- Posted final v1.1 stock to Tindie and updated resources.
+- Started research on v1.4 changes and JLCPCB assembly pricing
+- Pushing off v2.0 version with dual position port
+  - Keep switch replacement and new data alignment
+
