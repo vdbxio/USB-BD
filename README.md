@@ -4,8 +4,12 @@
 
 `A Type-C variant is on its way, so let us know what you'd like to see`
 
+
 # USB-BD
 A handy Micro-USB power and data breakout designed for breadboards, but useful in all kinds of projects. Put that drawer full of micro USB cables to good use.
+
+![version 1.4](https://img.shields.io/badge/2023-v1.4-blue?style=for-the-badge)
+
 
 ## Summary
 The USB-BD breaks out the Micro-USB 5v vbus and data pins to a standard 2.54mm/0.1" pitch grid pin headers. The pin headers are on opposite sides of the Micro USB port for stability and strength when in used on a breadboard. A slide switch is optionally used to switch both 5v + terminals simultaneously, otherwise solder the PWR jumper on the bottom to bypass the need for a switch. 
