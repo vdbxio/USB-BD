@@ -11,12 +11,19 @@ A handy Micro-USB power and data breakout designed for breadboards, but useful i
 ![version 1.4](https://img.shields.io/badge/2023-v1.4-blue?style=for-the-badge)
 
 
+![Features Overview Diagram](https://raw.githubusercontent.com/vdbxio/USB-BD/master/git-docs-features-dark.png)
+
+
 ## Summary
-The USB-BD breaks out the Micro-USB 5v vbus and data pins to a standard 2.54mm/0.1" pitch grid pin headers. The pin headers are on opposite sides of the Micro USB port for stability and strength when in used on a breadboard. A slide switch is optionally used to switch both 5v + terminals simultaneously, otherwise solder the PWR jumper on the bottom to bypass the need for a switch. 
+The USB-BD breaks out the Micro-USB 5v vbus and data pair to standard pin headers on a 2.54mm/0.1" pitch grid. The pin headers are on opposite sides of the Micro-USB port for stability and strength when in used on a breadboard. A slide switch is optionally used to switch both 5v+ terminals simultaneously, otherwise solder the PWR jumper on the bottom to bypass the need for a switch and give yourself current capability boost.
+
+`The switches are limited in that they are technically only rated for 200mA. We have seen them work at higher currents, but for how long? We are still testing.`
 
 `The 5v rail requires the switch or the PWR jumper to be soldered in order to get it to the two 5v+ connections.`
 
 If you require the data pins in conjunction with a breadboard, we suggest not using the 5v pair next to it, but the 5v pair on the other side, next to the switch, is still useable. In this configuration the USB-BD can be placed across the center break of the breadboard giving you Data + & - on one side and 5v + & - on the other. 
+
+The OTG solder jumper on the bottom pulls the ID pin to ground. It is there for your development needs. Have fun.
 
 ## Open Source
 
@@ -32,9 +39,9 @@ Previous versions were pick & placed by hand with a significant error rate.
 
 By: Chloe Madison (@clomads)
 
-I've always found myself doing electronics projects that require 5v... and specifically 5v from USB. It's always been a pain to get 5v from a USB port... the 5 pin breakouts from AliExpress and other sources are usually junk and you still have to wire back up to your power rails. The power supplies I've seen on Amazon and AliExpress are usually some large monstrosity that bridges the two paralell sides of the breadboard (why?) and require a barrel jack connector at some weird voltage.... again... why? If you're like me, you have a million Micro-USB cables laying around and the power bricks to go with them. Let's use them for making stuff. I feel like this is a product I will be using day in and day out... a new tool to make even cooler things and I hope you find it as useful as I have. 
+I've always found myself doing electronics projects that require 5v... and specifically 5v from USB. It's always been a pain to get 5v from a USB port... the 5 pin breakouts from AliExpress and other sources are usually junk and you still have to wire back up to your power rails. The power supplies I've seen on Amazon and AliExpress are usually some large monstrosity that bridges the two paralell sides of the breadboard (why?) and require a barrel jack connector at some weird voltage.... again... why? If you're like me, you have a million Micro-USB cables laying around and the power bricks to go with them. Let's use them for making stuff. Since creating v1 back in 2018, I've used these all over the place to bypass alkaline batteries, power micro-controllers, and even partially replace the guts of a broken USB fan .... a neat tool to make even cooler things and I hope you find it as useful as I have. 
 
-USB-BD doesn't actually mean anything. It was a silly name an ex called them when I was first designing them. Pronounced "US Bibbity" I also call them BBDs.
+USB-BD doesn't actually mean anything. It was a silly name an ex called them when I was first designing them. Pronounced "US Bibbity" I also call them "BBDs" for short.
 
 ## Files
 
@@ -63,6 +70,7 @@ v1.0 - Initial release - First batch with short horn USB port from AliExpress
 March 2023
 - Finalize updated README
 - Finalize package label design
+- Design flat feature diagram 
 
 Feb 2023
 - Design and submit production order
