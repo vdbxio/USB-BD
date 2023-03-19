@@ -1,3 +1,5 @@
+`AS OF 2023, THE SINGLE SOURCE OF TRUTH IS VDBXIO/WIKI - THIS REPO WILL SOON BE DEPRECATED - IT SHOULD ALREADY BE COPIED TO ITS NEW HOME`
+
 [![licensebuttons by](https://licensebuttons.net/l/by-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0)
 
 [![oshwa](https://img.shields.io/badge/US000128-OSHWA-blue?style=for-the-badge)](https://certification.oshwa.org/us000128.html)
